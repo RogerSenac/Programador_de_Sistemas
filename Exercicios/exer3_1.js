@@ -1,9 +1,4 @@
-function avaliarMedia (media) {
-    if (media >= 7.0) {
-        return "Aprovado"
-     }
-        return "Reprovado";
-}
+import {avaliarMedia} from "./biblioteca.js"; 
 
 console.log (avaliarMedia(10));
 console.log (avaliarMedia(7.0));
