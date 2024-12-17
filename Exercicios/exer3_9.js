@@ -1,17 +1,5 @@
-function calcularNota(porcentagem) {
-    switch (true) {
-      case porcentagem >= 90:
-        return 'A';
-      case porcentagem >= 80:
-        return 'B';
-      case porcentagem >= 70:
-        return 'C';
-      case porcentagem >= 60:
-        return 'D'; 1 
-      default:
-        return 'F';
-    }
-  }
+import {calcularNota} from "./biblioteca.js";
+  
   
   // Testando a função com os cenários:
   console.log(calcularNota(90));  // Saída: A
