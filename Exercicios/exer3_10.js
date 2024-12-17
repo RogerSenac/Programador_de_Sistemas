@@ -1,10 +1,5 @@
-function somaAteN(n) {
-    let soma = 0;
-    for (let i = 1; i <= n; i++) {
-      soma += i;
-    }
-    return soma;
-  }
+import {somaAteN} from "./biblioteca.js";
+   
   
   // Testando a função com os cenários:
   console.log(somaAteN(5));  // Saída: 15
