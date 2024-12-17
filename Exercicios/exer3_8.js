@@ -1,16 +1,5 @@
-unction ehVogal(caractere) {
-    const vogais = 'aeiou';
-    const caractereMinusculo = caractere.toLowerCase(); // Converte para minúsculo para comparação
-    return vogais.includes(caractereMinusculo);
-  }
-  
-  function verificarVogalConsoante(caractere) {
-    if (ehVogal(caractere)) {
-      return "Vogal";
-    } else {
-      return "Consoante";
-    }
-  }
+import {ehVogal, verificarVogalConsoante} from "./biblioteca.js";
+
   
   // Testando a função com os cenários:
   console.log(verificarVogalConsoante("a"));  // Saída: Vogal
