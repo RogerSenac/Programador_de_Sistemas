@@ -1,14 +1,5 @@
-function ehBissexto(ano) {
-    if (ano % 4 === 0) {
-      if (ano % 100 === 0) {
-        return ano % 400 === 0;
-      } else {
-        return true;
-      }
-    } else {
-      return false;
-    }
-  }
+import {ehBissexto} from "./biblioteca.js";
+  
   
   // Testando a função com os cenários:
   console.log(ehBissexto(2020));  // Saída: true
