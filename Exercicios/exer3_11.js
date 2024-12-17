@@ -1,14 +1,5 @@
-function fatorial(n) {
-    if (n < 0) {
-      return "O fatorial não está definido para números negativos.";
-    }
-  
-    let resultado = 1;
-    for (let i = 2; i <= n; i++) {
-      resultado *= i;
-    }
-    return resultado;
-  }
+import {fatorial} from "./biblioteca.js";
+
   
   // Testando a função com os cenários:
   console.log(fatorial(5));  // Saída: 120
